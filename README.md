@@ -42,7 +42,7 @@ gunicorn
 **Note:** Gunicorn is a Python HTTP server widely used to deploy Python applications including Flask and Django. It provides a scalable, reliable, and fast way to serve web applications and can handle multiple requests simultaneously, which helps improve the performance and stability of web applications.
 
 ## Step 2: Setting up a new web service on Render
-1. Go to (Render Dashboard)[https://dashboard.render.com/] and create a new web service.
+1. Go to [Render Dashboard](https://dashboard.render.com/) and create a new web service.
 2. Provide the public GitHub repository URL for your Dash application.
 3. Once you have selected the repository, Render will detect the application type and will prompt you to configure the service. For our application, you need to specify a unique name for the web service and update the start command in the  "Start Command" field. The "Start Command" should be updated as follows:
 
