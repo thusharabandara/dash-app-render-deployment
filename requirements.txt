@@ -1,5 +1,5 @@
 dash==2.9.3
-numpy==1.24.1
-pandas==2.0.1
-scikit_learn==1.2.2
+numpy
+pandas
+scikit_learn
 gunicorn
